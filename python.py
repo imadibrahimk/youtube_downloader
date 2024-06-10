@@ -119,6 +119,7 @@ def merge_video_audio(video_filename, audio_filename, output_filename, codec):
 if __name__ == "__main__":
     mainDfLoop = True
     while mainDfLoop:
+        print("\n«««««««««««   YouTube Video Downloader and Merger  »»»»»»»»»»»»»»\n")
         video_url = input("Enter the YouTube video URL: ")
         completed = download_video(video_url)
         
